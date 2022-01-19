@@ -1,0 +1,10 @@
+input_data_dir=data_in
+output_data_dir=data_out
+filters=value_not_none, value_only_even, key_only_alpha, fail_filter
+
+!!! ДЛЯ СТРОК ВЫШЕ ВАЖЕН ПОРЯДОК СЛЕДОВАНИЯ !!!
+Пример использования фильтрации (фильтры применяются в порядке написания):
+
+filters=value_not_none, value_only_even, key_only_alpha
+filters=value_not_none
+filters=
